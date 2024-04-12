@@ -24,13 +24,25 @@ $badWord = $_GET["badWord"];
 </head>
 <body>
   
-<h1>Bad Word</h1>
+  <section>
+  <h1>Bad Word</h1>
+  
+  <form action="server.php" method="get">
 
-<form action="server.php" method="get">
-  <input type="text" name="badWord" id="badWord" placeholder="Enter word to hide">
-  <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter text here"></textarea>
-  <button type="submit">Submit</button>
-</form>
+    <div class="badWord_input">
+      <label for="badWord">Enter word to hide</label>
+      <input type="text" name="badWord" id="badWord" placeholder="es. ciao">
+    </div>
+
+    <div class="text_input">
+      <label for="text">Enter text here</label>
+      <textarea name="text" id="text" cols="30" rows="10" placeholder="Lorem ipsum dolor"></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+
+  </form>
+</section>
 
 </body>
 </html>

@@ -36,6 +36,7 @@
   <span>Characters in text: <?php echo strlen($_GET["text"])?></span>
 </section>
 
+  <a href="./index.php">Retry</a>
 
 </body>
 </html>
