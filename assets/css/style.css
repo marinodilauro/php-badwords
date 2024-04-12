@@ -1,3 +1,9 @@
+body {
+  font-family: "Poppins", sans-serif;
+
+  font-style: normal;
+}
+
 form {
   width: 500px;
   display: flex;
