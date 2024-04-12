@@ -18,7 +18,7 @@ $badWord = $_GET["badWord"];
   
 <h1>Bad Word</h1>
 
-<form action="" method="get">
+<form action="server.php" method="get">
   <input type="text" name="badWord" id="badWord" placeholder="Enter word to hide">
   <textarea name="text" id="text" cols="30" rows="10" placeholder="Enter text here"></textarea>
   <button type="submit">Submit</button>
